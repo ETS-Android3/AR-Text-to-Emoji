@@ -8,6 +8,7 @@ Download source code here on github
 * Download source code here on github 
 * Open it with android studion and build it on your Android device
 * Or download and run the apk file 
+   * [Link to apk](app/build/outputs/apk/debug)
    * Open linux terminal and install apk file
  ```xml
   adb install app-debug.apk  
