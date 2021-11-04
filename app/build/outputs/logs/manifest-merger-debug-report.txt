@@ -1,0 +1,254 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\e15238d62d0af6674066b0638378fb53\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\28cfac27b8f705a4ffc0b0649f12133c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\781d504651bdcf3be668ebfbaead108f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\324a4ce82a6954d3a0fa50b95a63c010\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\3ef6575c8732d58c399df26b42b89b12\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\504dff780c5edbee0ad307fdc181197d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fff021f1b9b24e0f1cbde5b81c180e4d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bac1e3b928dbd20c1a1d9a9b09ed580a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:percent:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\percent-28.0.0.aar\a310ef53fe74183c5a57b9b930a58275\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.1.aar\528c0449f962d65cea65824775834b08\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c101b840f654f7ce82c89a4ab597f264\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ee7ccd346ab2e529f0104b2bc78cefdd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3440959eae47ea111fd3a674c31f6104\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\92f00c8b6601b3333bffd1f91ee2f331\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c2702420594614a0856b8c6efd992696\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c35e6cddde4f4dac32309500290be435\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6d74f8b9c0e85d2852ab19335286ee87\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ad57622a1187617c7f66b03416c09401\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\bb72a9b2915cbd4bc547c03ce09b59a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\56e6fa1d44825e708ca153f1475366f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\ccbc504e6621d06865f2d01897ffa2c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\8184748e69a31bd23fab7cd5c64a5c2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d526305ae2c2210e1db3071da5c70fea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\60c532107724992f9878b6b431e5c1fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\359ca9bda60aac24bd965530d52ef553\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e6f7ce19723a9d4bba914cfcdcdf84e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a76226118b8a20a1686f10e9cb92c32d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\64958533c2f475ff5aa9af17d31c7d37\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\dcf0534a5d5bc38f8bd641d5f2c9e317\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3bd536a6eebcf8d945b67459843f857b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95a71f5867c547290ef0451d8e187e36\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f3d2ccd9c2c75d6e455e29ec4d8c1131\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9348f3cef5e6322dfb9f1f20b157e24d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\14efb068de8aa46a352147af73c9ad81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5fb2738bc1c5ac964be9f92cc9b9e2af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e6b4ea11a23946766300ac3996f39c6d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\58be46683ea373dcf7828ea68e1a601f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\347a144b62cdc975f88ad537872d2840\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\4301d02104769f42f5cc70b732f51ffe\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:3:5-62
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:8:22-62
+application
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:10:5-37:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\e15238d62d0af6674066b0638378fb53\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\e15238d62d0af6674066b0638378fb53\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\781d504651bdcf3be668ebfbaead108f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\781d504651bdcf3be668ebfbaead108f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\324a4ce82a6954d3a0fa50b95a63c010\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\324a4ce82a6954d3a0fa50b95a63c010\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\504dff780c5edbee0ad307fdc181197d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\504dff780c5edbee0ad307fdc181197d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fff021f1b9b24e0f1cbde5b81c180e4d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fff021f1b9b24e0f1cbde5b81c180e4d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.1.aar\528c0449f962d65cea65824775834b08\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.1.aar\528c0449f962d65cea65824775834b08\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\64958533c2f475ff5aa9af17d31c7d37\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\64958533c2f475ff5aa9af17d31c7d37\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\dcf0534a5d5bc38f8bd641d5f2c9e317\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\dcf0534a5d5bc38f8bd641d5f2c9e317\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\64958533c2f475ff5aa9af17d31c7d37\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:15:9-39
+	android:hardwareAccelerated
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:12:9-42
+	android:icon
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:14:9-40
+	android:allowBackup
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:17:9-59
+activity#com.google.android.gms.samples.vision.ocrreader.SettingActivity
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:18:9-62
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:18:19-50
+activity#com.google.android.gms.samples.vision.ocrreader.MainSettings
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:19:9-50
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:19:19-47
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:22:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:24:9-26:35
+	android:value
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:26:13-32
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:25:13-70
+activity#com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:29:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\e15238d62d0af6674066b0638378fb53\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\e15238d62d0af6674066b0638378fb53\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\28cfac27b8f705a4ffc0b0649f12133c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\28cfac27b8f705a4ffc0b0649f12133c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\781d504651bdcf3be668ebfbaead108f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\781d504651bdcf3be668ebfbaead108f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\324a4ce82a6954d3a0fa50b95a63c010\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\324a4ce82a6954d3a0fa50b95a63c010\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\3ef6575c8732d58c399df26b42b89b12\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\3ef6575c8732d58c399df26b42b89b12\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\504dff780c5edbee0ad307fdc181197d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\504dff780c5edbee0ad307fdc181197d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fff021f1b9b24e0f1cbde5b81c180e4d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fff021f1b9b24e0f1cbde5b81c180e4d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\44a7e0c4a0509346e912d653d540d9e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bac1e3b928dbd20c1a1d9a9b09ed580a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bac1e3b928dbd20c1a1d9a9b09ed580a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\percent-28.0.0.aar\a310ef53fe74183c5a57b9b930a58275\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\percent-28.0.0.aar\a310ef53fe74183c5a57b9b930a58275\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.1.aar\528c0449f962d65cea65824775834b08\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.1.aar\528c0449f962d65cea65824775834b08\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c101b840f654f7ce82c89a4ab597f264\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c101b840f654f7ce82c89a4ab597f264\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ee7ccd346ab2e529f0104b2bc78cefdd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ee7ccd346ab2e529f0104b2bc78cefdd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3440959eae47ea111fd3a674c31f6104\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3440959eae47ea111fd3a674c31f6104\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\92f00c8b6601b3333bffd1f91ee2f331\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\92f00c8b6601b3333bffd1f91ee2f331\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c2702420594614a0856b8c6efd992696\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c2702420594614a0856b8c6efd992696\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c35e6cddde4f4dac32309500290be435\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c35e6cddde4f4dac32309500290be435\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6d74f8b9c0e85d2852ab19335286ee87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6d74f8b9c0e85d2852ab19335286ee87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ad57622a1187617c7f66b03416c09401\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ad57622a1187617c7f66b03416c09401\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\bb72a9b2915cbd4bc547c03ce09b59a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\bb72a9b2915cbd4bc547c03ce09b59a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\56e6fa1d44825e708ca153f1475366f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\56e6fa1d44825e708ca153f1475366f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\ccbc504e6621d06865f2d01897ffa2c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\ccbc504e6621d06865f2d01897ffa2c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\8184748e69a31bd23fab7cd5c64a5c2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\8184748e69a31bd23fab7cd5c64a5c2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d526305ae2c2210e1db3071da5c70fea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d526305ae2c2210e1db3071da5c70fea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\60c532107724992f9878b6b431e5c1fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\60c532107724992f9878b6b431e5c1fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\359ca9bda60aac24bd965530d52ef553\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\359ca9bda60aac24bd965530d52ef553\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e6f7ce19723a9d4bba914cfcdcdf84e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e6f7ce19723a9d4bba914cfcdcdf84e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a76226118b8a20a1686f10e9cb92c32d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a76226118b8a20a1686f10e9cb92c32d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\64958533c2f475ff5aa9af17d31c7d37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\64958533c2f475ff5aa9af17d31c7d37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\dcf0534a5d5bc38f8bd641d5f2c9e317\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\dcf0534a5d5bc38f8bd641d5f2c9e317\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3bd536a6eebcf8d945b67459843f857b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3bd536a6eebcf8d945b67459843f857b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95a71f5867c547290ef0451d8e187e36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95a71f5867c547290ef0451d8e187e36\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f3d2ccd9c2c75d6e455e29ec4d8c1131\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f3d2ccd9c2c75d6e455e29ec4d8c1131\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9348f3cef5e6322dfb9f1f20b157e24d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9348f3cef5e6322dfb9f1f20b157e24d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\14efb068de8aa46a352147af73c9ad81\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\14efb068de8aa46a352147af73c9ad81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5fb2738bc1c5ac964be9f92cc9b9e2af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5fb2738bc1c5ac964be9f92cc9b9e2af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e6b4ea11a23946766300ac3996f39c6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e6b4ea11a23946766300ac3996f39c6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\58be46683ea373dcf7828ea68e1a601f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\58be46683ea373dcf7828ea68e1a601f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\347a144b62cdc975f88ad537872d2840\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\347a144b62cdc975f88ad537872d2840\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\4301d02104769f42f5cc70b732f51ffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\4301d02104769f42f5cc70b732f51ffe\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tiach\Google Drive\Sem 2\Thesis Code\BuildApk2\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\tiach\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7fe6c7d4ecdd9598c853f830e292369c\AndroidManifest.xml:24:13-79

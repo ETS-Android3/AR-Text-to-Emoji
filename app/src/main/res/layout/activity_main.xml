@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Added By Tia Chapple-->
+<!--Last Modified By Tia Chapple 04/11/21-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainSettings">
+
+    <Button
+        android:id="@+id/menuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border_top"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuHeader" />
+
+    <Button
+        android:id="@+id/box2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box1" />
+
+    <Button
+        android:id="@+id/box3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box2" />
+
+    <Button
+        android:id="@+id/box4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box3" />
+
+    <Button
+        android:id="@+id/menuFooter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border_top"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box4" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backbutton2"
+        android:onClick="backtomain"
+        app:layout_constraintBottom_toBottomOf="@+id/menuHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <Button
+        android:id="@+id/forwardbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backbutton2"
+        android:onClick="toSecondSettings"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="@+id/menuFooter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menuFooter"
+        app:layout_constraintVertical_bias="0.51"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/small"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/smallexample"
+        android:elevation="2dp"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintWidth_percent="0.1"
+        app:srcCompat="@drawable/monkey" />
+
+
+    <ImageView
+        android:id="@+id/medium"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mediumexample"
+        android:elevation="2dp"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintWidth_percent="0.12"
+        app:srcCompat="@drawable/monkey" />
+
+    <ImageView
+        android:id="@+id/large"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/largeexample"
+        android:elevation="2dp"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.14"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintWidth_percent="0.14"
+        app:srcCompat="@drawable/monkey" />
+
+    <Button
+        android:id="@+id/button_around_fb"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="borderOrFill"
+        app:layout_constraintBottom_toTopOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/menuHeader"
+        app:layout_constraintWidth_percent="0.28" />
+
+    <Button
+        android:id="@+id/button_around_b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_top_selected"
+        android:onClick="border"
+        app:layout_constraintBottom_toTopOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toStartOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/menuHeader"
+        app:layout_constraintWidth_percent="0.28" />
+
+    <Button
+        android:id="@+id/button_around_nofb"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="noBorderOrFill"
+        app:layout_constraintBottom_toTopOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/menuHeader"
+        app:layout_constraintWidth_percent="0.28" />
+
+    <Button
+        android:id="@+id/smallButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="smallText"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.16000003"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/smallButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_off"
+        android:clickable="false"
+        android:elevation="10dp"
+        android:text="@string/small"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.16000003"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/mediumlButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="mediumText"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/mediumlButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_on"
+        android:clickable="false"
+        android:text="@string/medium"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/largeButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="largeText"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/largeButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_off"
+        android:clickable="false"
+        android:text="@string/large"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/fillBorderBoxExampleBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_fill_examples_with_border"
+        android:clickable="false"
+        android:text="@string/boxExample"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/button_around_fb"
+        app:layout_constraintEnd_toEndOf="@+id/button_around_fb"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="@+id/button_around_fb"
+        app:layout_constraintTop_toTopOf="@+id/button_around_fb"
+        app:layout_constraintWidth_percent="0.27" />
+
+
+    <Button
+        android:id="@+id/BorderBoxExampleBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_just_border_example"
+        android:clickable="false"
+        android:text="@string/boxExample1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/button_around_b"
+        app:layout_constraintEnd_toEndOf="@+id/button_around_b"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="@+id/button_around_b"
+        app:layout_constraintTop_toTopOf="@+id/button_around_b"
+        app:layout_constraintWidth_percent="0.27" />
+
+    <Button
+        android:id="@+id/NoFillOrBorderExampleBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/no_backgroumd"
+        android:clickable="false"
+        android:text="@string/boxExample2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/button_around_nofb"
+        app:layout_constraintEnd_toEndOf="@+id/button_around_nofb"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="@+id/button_around_nofb"
+        app:layout_constraintTop_toTopOf="@+id/button_around_nofb"
+        app:layout_constraintWidth_percent="0.27" />
+
+    <ImageView
+        android:id="@+id/playView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/playExample"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/box3"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintWidth_percent="0.14"
+        app:srcCompat="@drawable/play" />
+
+
+    <Button
+        android:id="@+id/TextOnPlay2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="textOnPlayFn"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/TextOnPlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_off"
+        android:clickable="false"
+        android:text="@string/textOnPlay"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/EmojiOnPlay2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="emojiOnPlayFn"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/EmojiOnPlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_on"
+        android:clickable="false"
+        android:text="@string/emojiOnPlay"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <ImageView
+        android:id="@+id/emojiOn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mediumexample"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/emojiBoundry"
+        app:layout_constraintEnd_toEndOf="@+id/emojiBoundry"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="@+id/emojiBoundry"
+        app:layout_constraintTop_toTopOf="@+id/emojiBoundry"
+        app:layout_constraintWidth_percent="0.1"
+        app:srcCompat="@drawable/monkey" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textBoundry"
+        app:layout_constraintEnd_toEndOf="@+id/textBoundry"
+        app:layout_constraintStart_toStartOf="@+id/textBoundry"
+        app:layout_constraintTop_toTopOf="@+id/textBoundry" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textBoundry2"
+        app:layout_constraintEnd_toEndOf="@+id/textBoundry2"
+        app:layout_constraintStart_toStartOf="@+id/textBoundry2"
+        app:layout_constraintTop_toTopOf="@+id/textBoundry2" />
+
+    <Button
+        android:id="@+id/textBoundry"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_selected"
+        android:clickable="false"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="@+id/box3"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/textBoundryLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/line_button"
+        android:clickable="false"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="@+id/box3"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/emojiBoundry"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_selected"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="@+id/box3"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/emojiBoundryLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/no_backgroumd"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/box3"
+        app:layout_constraintEnd_toEndOf="@+id/box3"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <ImageView
+        android:id="@+id/pauseView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/playExample"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/box4"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintWidth_percent="0.14"
+        app:srcCompat="@drawable/pause2" />
+
+    <Button
+        android:id="@+id/textOnPause2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="textOnPauseFn"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/textOnPause"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_off"
+        android:clickable="false"
+        android:text="@string/textOnPlay"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/emojiOnPause2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_not_selected"
+        android:onClick="emojiOnPauseFn"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/emojiOnPause"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_on"
+        android:clickable="false"
+        android:text="@string/emojiOnPlay"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <ImageView
+        android:id="@+id/emojiOn2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mediumexample"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/emojiBoundry2"
+        app:layout_constraintEnd_toEndOf="@+id/emojiBoundry2"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="@+id/emojiBoundry2"
+        app:layout_constraintTop_toTopOf="@+id/emojiBoundry2"
+        app:layout_constraintWidth_percent="0.1"
+        app:srcCompat="@drawable/monkey" />
+
+    <Button
+        android:id="@+id/textBoundry2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_selected"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="@+id/box4"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/textBoundryLine2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/line_button"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="@+id/box4"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/emojiBoundry2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_selected"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="@+id/box4"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+    <Button
+        android:id="@+id/emojiBoundryLine2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/no_backgroumd"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/box4"
+        app:layout_constraintEnd_toEndOf="@+id/box4"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/box4"
+        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintWidth_percent="0.22" />
+
+
+</android.support.constraint.ConstraintLayout>

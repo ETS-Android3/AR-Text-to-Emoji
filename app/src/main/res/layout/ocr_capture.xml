@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Last Modified By Tia Chapple 04/11/21-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:onClick="takePhoto">
+
+    <com.google.android.gms.samples.vision.ocrreader.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.gms.samples.vision.ocrreader.ui.camera.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.gms.samples.vision.ocrreader.ui.camera.CameraSourcePreview>
+    <!--Pause Play Button-->
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pause2"
+        android:onClick="takePhoto"
+        app:layout_constraintBottom_toBottomOf="@+id/preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/preview"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <!--Go to Settings Button-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/gear_2699_fe0f"
+        android:onClick="sendMessage"
+        android:text="@string/buttonSetting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/preview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+</android.support.constraint.ConstraintLayout>
